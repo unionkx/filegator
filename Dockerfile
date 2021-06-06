@@ -12,12 +12,12 @@ LABEL maintainer="${DOCKER_HUB_USER}"
 RUN \
  echo "**** install runtime packages ****" && \
  apk add --no-cache --upgrade \
-	php8-ctype \
-	php8-curl \
-	php8-pdo_pgsql \
-	php8-pdo_sqlite \
-	php8-tokenizer \
-	php8-zip \
+	php8.0-ctype \
+	php8.0-curl \
+	php8.0-pdo_pgsql \
+	php8.0-pdo_sqlite \
+	php8.0-tokenizer \
+	php8.0-zip \
 	unzip \
         curl && \
  echo "**** install filegator ****" && \
