@@ -101,7 +101,7 @@ We publish various [Docker Mods](https://github.com/linuxserver/docker-mods) to 
 * container version number
   * `docker inspect -f '{{ index .Config.Labels "build_version" }}' filegator`
 * image version number
-  * `docker inspect -f '{{ index .Config.Labels "build_version" }}' maxime1907/filegator`
+  * `docker inspect -f '{{ index .Config.Labels "build_version" }}' unionk/filegator`
 
 ## Updating Info
 
@@ -117,7 +117,7 @@ Below are the instructions for updating containers:
 * You can also remove the old dangling images: `docker image prune`
 
 ### Via Docker Run
-* Update the image: `docker pull maxime1907/filegator`
+* Update the image: `docker pull unionk/filegator`
 * Stop the running container: `docker stop filegator`
 * Delete the container: `docker rm filegator`
 * Recreate a new container with the same docker run parameters as instructed above (if mapped correctly to a host folder, your `/config` folder and settings will be preserved)
