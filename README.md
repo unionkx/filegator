@@ -1,4 +1,4 @@
-# A docker image for vlmcsd
+# A docker image for filegator
 
 ## Usage:
 ```
