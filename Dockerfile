@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.13-php8-version-f8038697
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.14-php8
 
 # set version label
 ARG DOCKER_HUB_USER
