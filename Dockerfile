@@ -31,5 +31,6 @@ RUN \
  echo "**** cleanup ****" && \
  rm -rf \
 	/tmp/*
+
 # add local files
 COPY root/ /
